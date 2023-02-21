@@ -9,6 +9,7 @@ html {
     /* custom properties */
     --first-color: rgb(0, 72, 206);
     --second-color: rgb(124, 146, 217);
+    --third-color: rgb(220, 2, 75);
 }
 
 .header-element {
