@@ -38,6 +38,26 @@ aside {
     grid-area: aside;
 }
 
+.container-flex {
+    display: flex;
+    gap: 25px;
+}
+
+.item-flex {
+    width: 25%;
+}
+
+.container-example {
+    display: grid;
+    grid-template-columns: 10% 500px;
+    grid-template-rows: 200px 50%;
+}
+
+.scroll-item {
+    height: 10vh;
+    overflow-y: auto;
+}
+
 .container {
     display: grid;
     width: 100%;
